@@ -19,7 +19,7 @@ jobs:
           action: "upload"
           app_location: "/"
           api_location: ""
-          output_location: "/"
+          
           app_build_command: ""skip_deploy_on_missing_secrets: true
 
 
