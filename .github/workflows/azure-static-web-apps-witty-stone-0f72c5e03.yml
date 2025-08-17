@@ -21,6 +21,20 @@ jobs:
           api_location: ""
           
           app_build_command: ""skip_deploy_on_missing_secrets: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
 
+      # Add your build steps here
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.DEPLOYMENT_TOKEN }}
+          publish_dir: ./public
+          skip_deploy_on_missing_secrets: true
 
 
