@@ -11,7 +11,7 @@ This project showcases a simple static website hosted on **Google Cloud Storage*
 - **Services Used:** Cloud Storage, Cloud CDN, IAM, HTTPS
 - **Goal:** Demonstrate foundational cloud hosting and architecture skills
 
----...
+---
 
 ## 🧱 Architecture Diagram
 
